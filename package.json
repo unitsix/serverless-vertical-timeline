@@ -1,0 +1,22 @@
+{
+  "name": "serverless-vertical-timeline",
+  "version": "1.0.0",
+  "description": "Micro site for displaying projects",
+  "main": "handler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unitsix/serverless-vertical-timeline"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-apigwy-binary": "^0.1.0",
+    "serverless-aws-static-file-handler": "^1.0.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.16.0"
+  }
+}

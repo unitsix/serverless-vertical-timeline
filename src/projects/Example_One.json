@@ -1,0 +1,67 @@
+[
+	{
+		"title" : "Initial Spike with Deloitte Digital", 
+		"icon" : "cd-icon-flash", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}],
+		"date" : "Aug 18"
+	},
+	{
+		"title" : "Proof of concept", 
+		"icon" : "cd-icon-settings-gear", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3schools.com/w3css/img_lights.jpg"
+		}],
+		"date" : "Sept 05"
+	},
+	{
+		"title" : "Collaboration", 
+		"icon" : "cd-icon-like", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}],
+		"date" : "Sept 07"
+	},
+	{
+		"title" : "Journey Flow", 
+		"icon" : "cd-icon-settings-gear", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}],
+		"date" : "Sept 09"
+	},
+	{
+		"title" : "Integration", 
+		"icon" : "cd-icon-settings-gear", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3schools.com/w3css/img_lights.jpg"
+		}],
+		"date" : "Oct 05"
+	},
+	{
+		"title" : "Documentation", 
+		"icon" : "cd-icon-settings-gear", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}],
+		"date" : "Nov 10"
+	},
+	{
+		"title" : "Monitoring", 
+		"icon" : "cd-icon-flash", 
+		"desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.", 
+		"files" : [{
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}, {
+			"file": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+		}],
+		"date" : "Dec 12"
+	}
+]

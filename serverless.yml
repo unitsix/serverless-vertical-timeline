@@ -1,0 +1,78 @@
+service: ${env:SERVICE_NAME} 
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: ${env:ENV}
+  region: ap-southeast-2
+  stackTags:
+    FRAMEWORK: serverless
+  
+package:
+   exclude:
+    - .env
+    - .env*
+    - ./**
+    - node_modules/**
+	
+   include:
+    - handler.js
+    - package.json
+    - index.html
+
+functions:
+  run:
+    Description: ${env:DESC}
+    handler: handler.index 
+    events:
+      - http:
+          path: /
+          method: GET
+          cors: true
+	  
+    environment:
+      BRAND: ${env:BRAND}
+		  
+  staticfiles:
+    handler: handler.staticfile
+    events:
+      - http:
+          path: vendor/js/{url}
+          method: get
+      - http:
+          path: vendor/css/{url}
+          method: get
+      - http:
+          path: js/{url}
+          method: get
+      - http:
+          path: css/{url}
+          method: get
+      - http:
+          path: img/{url}
+          method: get
+      - http:
+          path: projects/{projects+}
+          method: get
+          integration: lambda
+          contentHandling: CONVERT_TO_BINARY
+  
+	
+resources:
+  Resources:
+    ApiGatewayRestApi:
+      Type: AWS::ApiGateway::RestApi
+      Properties:
+        Name: ${self:service}-${env:ENV}
+		
+Outputs:
+  PublishLambdaFunctionArn:
+    Description: ${env:DESC}
+    Value:
+        "Fn::GetAtt": [ PublishLambdaFunction, Arn ]
+    Export: {"Name": "${self:service}-${env:ENV}"}
+
+plugins:
+  - serverless-apigwy-binary
+  - serverless-offline
+  
