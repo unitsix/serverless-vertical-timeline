@@ -66,7 +66,7 @@ module.exports.index = (event, context, callback) => {
 			console.log('filename' + file)
 			var projectName = file.toString().replace('.json', '')
 			projectsHtml = projectsHtml + 
-			  	'<div class="cd-timeline-block"><div class="cd-timeline-img cd-picture"><img src="img/flash-21.svg" alt="Picture"></div>' + 
+			  	'<div class="cd-timeline-block"><div class="cd-timeline-img cd-picture"><img src="img/cd-icon-flash.svg" alt="Picture"></div>' + 
 				'<a href="/?project=' + projectName + '"><div class="cd-timeline-content"><h2>' + projectName.replace(/_/g, ' ') + '</h2></div></a></div> '
 		  }
 		})
